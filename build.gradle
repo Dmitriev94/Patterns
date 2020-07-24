@@ -14,6 +14,8 @@ repositories {
 }
 
 dependencies {
+
+    compile group: 'org.projectlombok', name: 'lombok', version: '1.18.12'
     testImplementation 'com.github.javafaker:javafaker:1.0.1'
     testImplementation 'io.rest-assured:rest-assured:4.3.0'
     testImplementation 'com.codeborne:selenide:5.11.1'
