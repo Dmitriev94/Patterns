@@ -15,5 +15,13 @@ public class CurrentLocalDate {
         return dateFormat.format(localDateTime);
     }
 
+    public String localDateTime2() {
+
+        LocalDateTime localDateTime2 = LocalDateTime.now().plusDays(5);
+
+
+        return dateFormat.format(localDateTime2);
+    }
+
 
 }
