@@ -23,5 +23,4 @@ public class CurrentLocalDate {
         return dateFormat.format(localDateTime2);
     }
 
-
 }

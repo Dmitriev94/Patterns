@@ -17,7 +17,6 @@ public class CardDeliveryTest {
     public String date = currentLocalDate.localDateTime();
     public String date2 = currentLocalDate.localDateTime2();
 
-
     @Test
     void shouldInputValid(){
         open("http://localhost:9999");
@@ -37,7 +36,6 @@ public class CardDeliveryTest {
         $("[data-test-id=success-notification] .notification__content").shouldHave(text("Встреча успешно запланирована на")).shouldHave(text(date2));
 
     }
-
 
 }
 

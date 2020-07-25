@@ -24,7 +24,7 @@ public class DataGenerator {
     }
 
     public String shouldReturnARandomElement() {
-        List<String> givenList = Arrays.asList("Уфа", "Кемерово", "Майкоп","Москва", "Симферополь", "Смоленск", "Тамбов");
+        List<String> givenList = Arrays.asList("Уфа", "Кемерово", "Майкоп", "Москва", "Симферополь", "Смоленск", "Тамбов");
         Random rand = new Random();
         String randomElement = givenList.get(rand.nextInt(givenList.size()));
         return randomElement;
