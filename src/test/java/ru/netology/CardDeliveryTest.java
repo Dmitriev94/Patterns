@@ -34,9 +34,7 @@ public class CardDeliveryTest {
         $("[data-test-id=replan-notification]").shouldHave(text("У вас уже запланирована встреча на другую дату. Перепланировать?"));
         $(byText("Перепланировать")).click();
         $("[data-test-id=success-notification] .notification__content").shouldHave(text("Встреча успешно запланирована на")).shouldHave(text(date2));
-
     }
-
 }
 
 

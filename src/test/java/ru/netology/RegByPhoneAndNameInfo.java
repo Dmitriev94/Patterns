@@ -6,7 +6,6 @@ import lombok.RequiredArgsConstructor;
 
 @Data
 @RequiredArgsConstructor
-
 public class RegByPhoneAndNameInfo {
 
     private final String fullName;
